@@ -94,7 +94,7 @@ Maximum displacement:
 ### Von Mises Stress
 
 <p align="center">
-<img src="results/von_mises_stress.png" width="700">
+<img src="von_mises_stress.png" width="700">
 </p>
 
 Maximum stress:
@@ -112,7 +112,7 @@ The stress level remains significantly below the yield strength of Aluminum 2024
 ### Buckling Mode 1
 
 <p align="center">
-<img src="results/buckling_mode1.png" width="700">
+<img src="buckling_mode1.png" width="700">
 </p>
 
 Buckling factor:
@@ -126,7 +126,7 @@ Buckling factor:
 ### Buckling Mode 3
 
 <p align="center">
-<img src="results/buckling_mode3.png" width="700">
+<img src="buckling_mode3.png" width="700">
 </p>
 
 Buckling factor:
@@ -140,7 +140,7 @@ Buckling factor:
 ### Buckling Mode 5
 
 <p align="center">
-<img src="results/buckling_mode5.png" width="700">
+<img src="buckling_mode5.png" width="700">
 </p>
 
 Buckling factor:
@@ -154,7 +154,7 @@ Buckling factor:
 ### Buckling Mode 7
 
 <p align="center">
-<img src="results/buckling_mode7.png" width="700">
+<img src="buckling_mode7.png" width="700">
 </p>
 
 Buckling factor:
