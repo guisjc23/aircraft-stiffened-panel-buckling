@@ -1,0 +1,233 @@
+ ************************************************************************
+ **                                                                    **
+ **                                                                    **
+ **                    Altair OptiStruct(TM) 2022.3                    **
+ **                                                                    **
+ **             Advanced Engineering Analysis, Design and              **
+ **        Optimization Software from Altair Engineering, Inc.         **
+ **                                                                    **
+ **   OptiStruct includes an enhanced proprietary version of NASTRAN   **
+ **                                                                    **
+ **                                                                    **
+ **                Windows 10  (Build 9200)  GUILHERME                 **
+ **          4 CPU:  Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz          **
+ **                    9071 MB RAM,  17318 MB swap                     **
+ **                                                                    **
+ ** Build: 1161285uwn33223_Ce64RB68UH14M:214991-000  46004004000000004 **
+ ************************************************************************
+ **  COPYRIGHT (C) 1996-2023                 Altair Engineering, Inc.  **
+ ** All Rights Reserved.  Copyright notice does not imply publication. **
+ **         Contains trade secrets of Altair Engineering, Inc.         **
+ ** Decompilation or disassembly of this software strictly prohibited. **
+ ************************************************************************
+ 
+  
+ *** OptiStruct defaults set from:
+   install config file: C:/Program Files/Altair/2022.3/hwsolvers/optistruct.cfg.
+  
+  
+ NOTE # 9199
+ MSGLMT=STRICT is active, all messages will be printed unless there is
+ a subsequent MSGLMT definition to limit error or warning messages.
+ You can also suppress some less important warning messages by use of
+  MSGLMT=BRIEF or UNREF (in config file or in the input data).
+  
+ *** WARNING # 1082
+ SPC SID=1 from static SUBCASE 1
+ used for buckling SUBCASE 2.
+  
+ NOTE # 1929
+ Created RAM scratch area: total size 200 MB.
+  
+  
+ 
+
+************************************************************************
+
+OPTIMIZATION FILE AND PARAMETER INFORMATION :
+---------------------------------------------
+
+  FEM model file               : 
+     C:/Users/guilh/Documents/06-Elementos_Finitos/10-Skin_Stringer/Skin_Stringer.fem
+  Output files prefix          : 
+     C:/Users/guilh/Documents/06-Elementos_Finitos/10-Skin_Stringer/Skin_Stringer
+  Model read from files:
+ (*1)	    C:/Users/guilh/Documents/06-Elementos_Finitos/10-Skin_Stringer/Skin_Stringer.fem
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+FINITE ELEMENT MODEL DATA INFORMATION :
+---------------------------------------
+
+  Total # of Grids (Structural)        :      7387
+  Total # of Elements                  :      7200
+  Total # of Degrees of Freedom        :     43890
+  (Structural)
+  Total # of Non-zero Stiffness Terms  :   1185970
+
+ 
+  Element Type Information
+  ------------------------
+
+   CQUAD4   Elements   :     7200     
+
+  Load and Boundary Information
+  -----------------------------
+
+   LOAD and TEMP Sets:         1
+   SPC   Sets        :         1
+
+  Material and Property Information
+  ---------------------------------
+
+   PSHELL Cards      :         3
+   MAT1   Cards      :         1
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+OPTIMIZATION PROBLEM PARAMETERS :
+---------------------------------
+
+ NO DESIGN MATERIAL OR DESIGN VARIABLES FOUND  : ANALYSIS ONLY
+
+   ------------------------
+   Static Subcase Summary :
+   ------------------------
+
+   ----------   --------  -------  --------------------- 
+   Subcase ID    SPC ID   LOAD ID  Preloading Subcase ID
+   ----------   --------  -------  --------------------- 
+        1            1          2
+   ----------   --------  -------  --------------------- 
+
+   --------------------------
+   Buckling Subcase Summary :
+   --------------------------
+
+   ----------   --------  --------  --------------
+   Subcase ID    SPC ID    Mode #   Static Subcase
+   ----------   --------  --------  --------------
+          2            1        10            1
+   ----------   --------  --------  --------------
+
+   Run Type                        :   Analysis Only (No design elements)
+   Run at location                 : C:/Users/guilh/Documents/06-Elementos_Finitos/10-Skin_Stringer/
+   Scratch file directory          : C:/Users/guilh/Documents/06-Elementos_Finitos/10-Skin_Stringer/
+                                     Free space:    78.263 GB
+   Number of CPU processors        :          1
+
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+MEMORY ESTIMATION INFORMATION :
+-------------------------------
+
+ Solver Type is:  Sparse-Matrix Solver
+                  Direct Method
+ 
+ Static Memory (RAM) Allocated in Preprocessor           :     800 MB
+   In addition a ramdisk area was allocated in memory    :     200 MB
+ MUMPS Solver will Run In-Core with Estimated Memory     :     145 MB
+ Estimated Total Memory (RAM)                            :    1145 MB
+ 
+ Estimated Memory (RAM) for Out-of-Core Solution         :     144 MB
+ Estimated Memory (RAM) for In-Core Solution             :     235 MB
+ 
+DISK SPACE ESTIMATION INFORMATION :
+-----------------------------------
+
+ Estimated Disk Space for Output Data Files              :       8 MB
+ Estimated Scratch Disk Space for In-Core Solution       :      35 MB
+ Estimated Scratch Disk Space for Out-of-Core Solution   :     106 MB
+
+************************************************************************
+
+
+BEGINNING ANALYSIS SOLUTION ....
+
+
+************************************************************************
+
+ANALYSIS RESULTS :
+------------------
+
+  
+ITERATION   0
+  
+ (Scratch disk space usage for starting iteration = 35 MB)
+(Running in-core solution)
+
+Volume                              =  3.15000E+05   Mass     =  8.75700E-04
+-----------------------------------
+Subcase    Compliance       Epsilon
+-----------------------------------
+      1  5.107850E+02  1.104184E-12
+-----------------------------------
+ 
+
+Note : Epsilon = Residual Strain Energy Ratio.
+Subcase Mode Buckling Eigenvalue
+      2    1        2.876080E-01
+      2    2        4.120607E-01
+      2    3        5.220611E-01
+      2    4        6.260576E-01
+      2    5        6.482999E-01
+      2    6        7.470504E-01
+      2    7        8.223812E-01
+      2    8        8.706732E-01
+      2    9        1.062904E+00
+      2   10        1.086107E+00
+ 
+
+
+************************************************************************
+  
+ ANALYSIS COMPLETED.
+  
+
+************************************************************************
+
+RESOURCE USAGE INFORMATION
+--------------------------
+
+ MAXIMUM MEMORY USED                                       946 MB
+   INCLUDING MEMORY FOR MUMPS                              146 MB
+   IN ADDITION     33 MB MEMORY WAS ALLOCATED FOR TEMPORARY USE
+   IN ADDITION    200 MB RAMDISK AREA WAS ALLOCATED IN MEMORY
+ MAXIMUM DISK SPACE USED                                     3 MB
+   INCLUDING DISK SPACE FOR MUMPS                            0 MB
+
+************************************************************************
+
+
+************************************************************************
+
+COMPUTE TIME INFORMATION
+------------------------
+
+ EXECUTION STARTED                         Fri May 29 15:06:34 2026    
+ EXECUTION COMPLETED                       Fri May 29 15:06:46 2026    
+ ELAPSED TIME                                         00:00:12
+ CPU TIME                                             00:00:08
+
+************************************************************************
+
+  
+                        ***** END OF REPORT *****
+  
+ For OptiStruct Community Forum, go to the URL:
+ http://www.altair.com/optistruct-community
+ For Altair Community Knowledge Base, go to the URL:
+ http://www.altair.com/knowledge
