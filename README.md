@@ -80,7 +80,7 @@ Aluminum Alloy 2024-T3
 ### Total Displacement
 
 <p align="center">
-<img src="results/displacement.png" width="700">
+<img src="displacement.png" width="700">
 </p>
 
 Maximum displacement:
